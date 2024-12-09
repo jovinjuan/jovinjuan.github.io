@@ -1,0 +1,101 @@
+*{
+    font-family:"Poppins",sans-serif;
+}
+nav{
+    background: #5900f4;
+    background: linear-gradient(90deg, rgba(89,0,244,1) 0%, rgba(96,31,181,1) 35%, rgba(89,0,244,1) 100%);
+    height: 70px; 
+}
+.nav-link:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid white;
+}
+.nav-linkbtn{
+    color: rgb(89,0,244);
+    background-color:rgb(207, 190, 227);
+}
+.nav-linkbtn:hover{
+    background: rgba(96,31,181,1);
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.hero-section h2{
+    font-family: "Montserrat",sans-serif;
+}
+.hero-section h1{
+    color: rgb(175, 131, 233);
+    font-size: 120px
+}
+.hero-section {
+padding: 100px 120px;
+background-color: #100a38; /* Replace with your desired color */
+}
+.head-linkbtn{
+background: #5667ec;
+color: white;
+width: 20%;
+}
+.head-linkbtn:hover,.about-linkbtn:hover{
+background: rgba(96,31,181,1);
+transition: 0.4s ease-in-out;
+}
+.hero-section img{
+scale: 130%;
+}
+.about img{
+scale: 60%;
+}
+.about h2{
+font-family: "Montserrat",sans-serif;
+}
+.about-linkbtn{
+background: #5667ec;
+width: 30%;
+}
+#Skillset{
+background-color: #1C1263;
+}
+.card {
+width: 18rem;
+height: 23rem; /* Ensures uniform card height */
+}
+.card:hover{
+transform: scale(1.1); /* Slight zoom */
+}
+.card-img-top {
+height: 18rem; /* Adjust to fit your desired size */
+object-fit: cover; /* Ensures the image fits without distortion */
+}
+.card-body {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%; /* Centers content vertically */
+text-align: center;
+}
+.carousel-inner a{
+background-color: rgb(207, 190, 227);
+border-radius: 30px;
+color: rgba(96, 31, 181, 1);
+}
+.carousel-inner a:hover{
+background-color: #5900f4;
+transition: 0.4s ease-in-out;
+}
+#Contact{
+background: #7682df;
+}
+#Contact button:hover{
+background: rgba(96,31,181,1);
+transition: 0.4s ease-in-out;
+}
+#Contact button{
+background:#5667ec;
+}
+footer hr{
+border-color: #1C1263;
+}
+footer{
+background-color:#7682df;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page | Jovin Juanlie</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    * {
+    font-family:"Poppins",sans-serif;
+    }
+    .overlay {
+    background: rgba(0, 0, 0, 0.5); 
+    }
+    .cta{
+    background: #5667ec;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .cta:hover {
+    background-color: #0056b3; 
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    }
+</style>
+</head>
+<body>
+<div class="video-container d-flex align-items-center justify-content-center text-center position-relative w-100 vh-100 overflow-hidden">
+  <!-- Background Video -->
+  <video autoplay loop muted class="object-fit-cover position-absolute top-0 start-0 w-100 h-100">
+    <source src="VideoLanding.mp4"  type="video/mp4">
+  </video>
+  <!-- Dark Overlay -->
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100 z-index:1"></div>
+  <!-- Content -->
+  <div class="content position-relative z-index:2 text-light">
+    <h1 class="display-2 fw-bold ">Ready to Explore?</h1>
+    <p class="lead py-4">I’m glad you’re here! Check out my work and see how I build intuitive, user-focused websites. Let’s create something amazing !</p>
+    <a href="portfolio.html" class="cta text-light text-decoration-none r py-2 px-4 rounded-4 transition-all duration-300 ease-in-out fs-2 fw-semibold">View Portfolio</a>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
