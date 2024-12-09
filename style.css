@@ -4,7 +4,7 @@
 nav{
     background: #5900f4;
     background: linear-gradient(90deg, rgba(89,0,244,1) 0%, rgba(96,31,181,1) 35%, rgba(89,0,244,1) 100%);
-    height: 70px; 
+    height: 4.5em; 
 }
 .nav-link:hover{
     text-decoration: underline;
@@ -41,10 +41,10 @@ background: rgba(96,31,181,1);
 transition: 0.4s ease-in-out;
 }
 .hero-section img{
-scale: 130%;
+width: 130%;
 }
 .about img{
-scale: 60%;
+width: 90%;
 }
 .about h2{
 font-family: "Montserrat",sans-serif;
