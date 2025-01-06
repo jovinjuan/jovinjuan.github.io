@@ -1,6 +1,15 @@
 *{
     font-family:"Poppins",sans-serif;
+    box-sizing: border-box;
 }
+html,body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
 nav{
     background: #5900f4;
     background: linear-gradient(90deg, rgba(89,0,244,1) 0%, rgba(96,31,181,1) 35%, rgba(89,0,244,1) 100%);
@@ -25,11 +34,10 @@ nav{
 }
 .hero-section h1{
     color: rgb(175, 131, 233);
-    font-size: 120px
 }
 .hero-section {
 padding: 100px 120px;
-background-color: #100a38; /* Replace with your desired color */
+background-color: #100a38; 
 }
 .head-linkbtn{
 background: #5667ec;
@@ -41,7 +49,7 @@ background: rgba(96,31,181,1);
 transition: 0.4s ease-in-out;
 }
 .hero-section img{
-width: 130%;
+width: 80%;
 }
 .about img{
 width: 90%;
@@ -58,20 +66,20 @@ background-color: #1C1263;
 }
 .card {
 width: 18rem;
-height: 23rem; /* Ensures uniform card height */
+height: 23rem; 
 }
 .card:hover{
-transform: scale(1.1); /* Slight zoom */
+transform: scale(1.1); 
 }
 .card-img-top {
-height: 18rem; /* Adjust to fit your desired size */
-object-fit: cover; /* Ensures the image fits without distortion */
+height: 18rem; 
+object-fit: cover; 
 }
 .card-body {
 display: flex;
 align-items: center;
 justify-content: center;
-height: 100%; /* Centers content vertically */
+height: 100%; 
 text-align: center;
 }
 .carousel-inner a{
@@ -86,11 +94,11 @@ transition: 0.4s ease-in-out;
 #Contact{
 background: #7682df;
 }
-#Contact button:hover{
+#Contact button:hover, #SocialMedia a:hover{
 background: rgba(96,31,181,1);
 transition: 0.4s ease-in-out;
 }
-#Contact button{
+#Contact button, #SocialMedia a{
 background:#5667ec;
 }
 footer hr{
