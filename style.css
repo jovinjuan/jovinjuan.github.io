@@ -107,3 +107,39 @@ border-color: #1C1263;
 footer{
 background-color:#7682df;
 }
+
+@media (max-width:600px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .hero-section img{
+        display: none;
+    }
+    .hero-section h2,.hero-section p{
+        display: none;
+    }
+    .hero-section h1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+    }
+    .head-linkbtn{
+        display: flex;
+        justify-content: center;
+    }
+    .head-linkbtn,.about-linkbtn{
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #SocialMedia .card{
+        margin-bottom: 2rem;
+    }
+}
